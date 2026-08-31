@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "skulkdim",
+  "version": "${version}",
+  "name": "SKULKDIM",
+  "description": "MOD DODAJE NOWY WYMIAR!",
+  "authors": [
+    "Mikomaniak, KrzysKrolOgorkow!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/skulkdim/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "com.skulkdim.SKULKDIM",
+        "adapter": "kotlin"
+      }
+    ],
+    "client": [
+      {
+        "value": "com.skulkdim.SKULKDIMClient",
+        "adapter": "kotlin"
+      }
+    ]
+  },
+  "mixins": [
+    "skulkdim.mixins.json",
+    {
+      "config": "skulkdim.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*"
+  }
+}

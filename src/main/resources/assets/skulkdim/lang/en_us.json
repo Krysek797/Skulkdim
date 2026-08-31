@@ -1,0 +1,18 @@
+{
+  "itemGroup.skulkdim": "Skulk Dimension",
+  "block.skulkdim.sculk_island_block": "Skulk Dirt",
+  "block.skulkdim.sculk_island_stone": "Skulk Stone",
+  "block.skulkdim.skulk_water": "Skulk Water",
+  "item.skulkdim.skulk_water_bucket": "Skulk Water Bucket",
+  "item.skulkdim.enriched_echo_shard": "Enriched echo shard",
+  "item.skulkdim.skulk_upgrade_smithing_template": "Skulk Upgrade Smithing Template",
+  "item.skulkdim.skulk_sword": "Skulk Sword",
+  "item.skulkdim.skulk_pickaxe": "Skulk Pickaxe",
+  "item.skulkdim.skulk_axe": "Skulk Axe",
+  "item.skulkdim.skulk_shovel": "Skulk Shovel",
+  "item.skulkdim.skulk_hoe": "Skulk Hoe",
+  "item.skulkdim.skulk_helmet": "Skulk helmet",
+  "item.skulkdim.skulk_chestplate": "Skulk chestplate",
+  "item.skulkdim.skulk_leggings": "Skulk leggings ",
+  "item.skulkdim.skulk_boots": "Skulk boots"
+}

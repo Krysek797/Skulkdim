@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "skulkdim:skulk_upgrade_smithing_template" },
+  "base": { "item": "minecraft:diamond_boots" },
+  "addition": { "item": "skulkdim:enriched_echo_shard" },
+  "result": { "id": "skulkdim:skulk_boots", "count": 1 }
+}

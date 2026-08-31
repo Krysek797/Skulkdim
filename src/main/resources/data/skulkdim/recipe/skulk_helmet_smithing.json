@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "skulkdim:skulk_upgrade_smithing_template" },
+  "base": { "item": "minecraft:diamond_helmet" },
+  "addition": { "item": "skulkdim:enriched_echo_shard" },
+  "result": { "id": "skulkdim:skulk_helmet", "count": 1 }
+}
