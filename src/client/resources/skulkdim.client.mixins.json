@@ -1,6 +1,19 @@
 {
+<<<<<<< HEAD
 	"required": true,
 	"package": "com.skulkdim.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": []
 }
+=======
+	"required": false,
+	"package": "com.skulkdim.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab

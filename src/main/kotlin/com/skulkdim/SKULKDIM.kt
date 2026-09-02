@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.skulkdim
 
 import com.skulkdim.item.ModArmorMaterials
@@ -27,3 +28,17 @@ object SKULKDIM : ModInitializer {
     }
 
 
+=======
+package com.skulkdim
+
+import net.fabricmc.api.ModInitializer
+
+object SKULKDIM : ModInitializer {
+    const val MOD_ID = "skulkdim"
+
+    override fun onInitialize() {
+        ModBlocks.register()
+        ModItems.register()
+    }
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab

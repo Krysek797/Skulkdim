@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "skulkdim:skulkdim_type",
   "generator": {
@@ -9,3 +10,16 @@
     }
   }
 }
+=======
+{
+  "type": "skulkdim:skulkdim_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "skulkdim:skulk_islands",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "skulkdim:skulk_biome"
+    }
+  }
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab

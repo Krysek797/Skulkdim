@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ultrawarm": false,
   "has_ceiling": true,
@@ -17,3 +18,24 @@
   "infiniburn": "#minecraft:infiniburn_overworld",
   "effects": "minecraft:overworld"
 }
+=======
+{
+  "ultrawarm": false,
+  "has_ceiling": true,
+  "natural": true,
+  "piglin_safe": false,
+  "respawn_anchor_works": false,
+  "bed_works": true,
+  "has_raids": true,
+  "has_skylight": false,
+  "coordinate_scale": 1.0,
+  "ambient_light": 0.0,
+  "logical_height": 256,
+  "min_y": -64,
+  "height": 384,
+  "monster_spawn_light_level": 0,
+  "monster_spawn_block_light_limit": 0,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "effects": "minecraft:overworld"
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab

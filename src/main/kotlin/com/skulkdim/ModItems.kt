@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.skulkdim
 
 import com.skulkdim.item.ModArmorMaterials
@@ -89,3 +90,23 @@ object ModItems {
 
     fun register() {}
 }
+=======
+package com.skulkdim
+
+import net.minecraft.item.BlockItem
+import net.minecraft.item.Item
+import net.minecraft.registry.Registries
+import net.minecraft.registry.Registry
+import net.minecraft.util.Identifier
+
+object ModItems {
+
+    fun register() {
+        Registry.register(
+            Registries.ITEM,
+            Identifier.of(SKULKDIM.MOD_ID, "sculk_island_block"),
+            BlockItem(ModBlocks.SCULK_ISLAND_BLOCK, Item.Settings())
+        )
+    }
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"required": true,
 	"package": "com.skulkdim.mixin",
 	"compatibilityLevel": "JAVA_21",
@@ -7,3 +8,18 @@
 		"defaultRequire": 1
 	}
 }
+=======
+	"required": false,
+	"package": "com.skulkdim.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab

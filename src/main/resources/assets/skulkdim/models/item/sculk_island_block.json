@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 {
   "parent": "skulkdim:block/sculk_island_block"
 }
+=======
+{
+  "parent": "skulkdim:block/sculk_island_block"
+}
+>>>>>>> f1943cfe6e26f9efb70965de203f796f3ab1daab
